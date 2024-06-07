@@ -6,6 +6,8 @@ npx create-next-app@latest --typescript --tailwind --eslint
 npx v0@latest init
 npm run dev 
 yarn dev
+npm run build
+npm run start
 
 #Create React version
 npx create-react-app doddi.priyambodo.com
@@ -45,10 +47,6 @@ gcloud run deploy "$SERVICE_NAME" \
 git config --global user.name "Doddi Priyambodo"
 git config --global user.email "doddi@bicarait.com"
 git add .
+git tag -a autobuild -m "Auto Build CICD to Cloud Run at $(date +"%Y-%m-%d %H:%M:%S")"
 git commit -a -m "Doddi Priyambodo is committing at $(date +"%Y-%m-%d %H:%M:%S")"
-git push
-
-#Auto Deploy using Cloud Build
-git add .
-git commit -a -m "Doddi Priyambodo auto deploy CICD at $(date +"%Y-%m-%d %H:%M:%S")"
-git push origin cicd
+git push origin main

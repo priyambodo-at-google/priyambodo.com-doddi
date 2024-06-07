@@ -34,7 +34,7 @@ export function Component() {
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">Doddi Priyambodo</h1>
             <h2 className="text-2xl font-semibold text-gray-500 dark:text-gray-400">Solutions Consultant, Google Cloud SEA</h2>
             <p className="text-lg text-gray-600 dark:text-gray-400">
-            Doddi Priyambodo is an IT pro with ~20 years of experience as a customer and consultant. He has worked at international companies such as Google, AWS, VMware, and IBM. Currently he is the Gen AI Ambassador and Google Partner Solutions Consultant at Google Cloud South East Asia. Doddi specializes in AI, data analytics and dedicated to providing real value to customers. He is known for his customer-centric mindset which he believes is key to his works.
+            Doddi Priyambodo is a results-oriented IT professional with two decades of experience in customer and consulting roles at leading companies like Google, AWS, VMware, and IBM. Currently serving as Google Partner Solutions Consultant and Generative AI Ambassador at Google Cloud South East Asia, specializing in AI and data analytics to drive customer success. Proven track record of delivering innovative solutions and exceeding client expectations through a customer-centric approach.
             </p>
           </div>
           <div className="flex justify-end">
