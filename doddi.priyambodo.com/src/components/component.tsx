@@ -39,7 +39,7 @@ export function Component() {
           </div>
           <div className="flex justify-end">
             <img
-              alt="John Doe"
+              alt="Doddi Priyambodo"
               className="rounded-full w-64 h-64 object-cover"
               height={300}
               src="https://bicarait.com/wp-content/uploads/2024/06/Doddi-Priyambodo-2023-scaled.jpg"
@@ -180,7 +180,7 @@ export function Component() {
           <div>
             <h2 className="text-3xl font-bold tracking-tight mb-6">Contact</h2>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-              <Badge variant="secondary">doddi@priyambodo.com *</Badge>
+              <Badge variant="secondary">doddi@priyambodo.com</Badge>
               <Badge variant="secondary">doddi@bicarait.com</Badge>
               <Badge variant="secondary">doddi.priyambodo@gmail.com</Badge>
               <Badge variant="secondary">https://www.bicarait.com</Badge>
