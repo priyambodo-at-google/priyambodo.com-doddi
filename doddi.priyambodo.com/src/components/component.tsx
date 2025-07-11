@@ -183,7 +183,7 @@ export function Component() {
               <Badge variant="secondary">doddi@priyambodo.com</Badge>
               <Badge variant="secondary">doddi@bicarait.com</Badge>
               <Badge variant="secondary">doddi.priyambodo@gmail.com</Badge>
-              <Badge variant="secondary">https://www.bicarait.com</Badge>
+              <Badge variant="secondary">http://medium.com/@doddipriyambodo</Badge>
               <Badge variant="secondary">https://www.priyambodo.com</Badge>
               <Badge variant="secondary">https://doddipriyambodo.medium.com</Badge>
               <Badge variant="secondary">https://github.com/priyambodo-at-google</Badge>
