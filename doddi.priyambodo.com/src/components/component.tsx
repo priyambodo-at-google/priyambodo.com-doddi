@@ -24,6 +24,7 @@ To read more about using these font, please visit the Next.js documentation:
 - Pages Directory: https://nextjs.org/docs/pages/building-your-application/optimizing/fonts
 **/
 import { Badge } from "@/components/ui/badge"
+import Image from "next/image"
 
 export function Component() {
   return (
@@ -38,11 +39,11 @@ export function Component() {
             </p>
           </div>
           <div className="flex justify-end">
-            <img
+            <Image
               alt="Doddi Priyambodo"
               className="rounded-full w-64 h-64 object-cover"
               height={300}
-              src="https://bicarait.com/wp-content/uploads/2024/06/Doddi-Priyambodo-2023-scaled.jpg"
+              src="/doddi.jpg"
               style={{
                 aspectRatio: "300/300",
                 objectFit: "cover",

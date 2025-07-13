@@ -2,10 +2,12 @@
 #This is the Step by Step to build the React Web Application
 
 #Create NextJS version
-npx create-next-app@latest --typescript --tailwind --eslint
-npx v0@latest init
+#npx create-next-app@latest --typescript --tailwind --eslint
+#npx v0@latest init
+
+cd doddi.priyambodo.com
+npm install
 npm run dev 
-yarn dev
 npm run build
 npm run start
 
