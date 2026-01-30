@@ -1,11 +1,9 @@
 #/bin/bash
-#This is the Step by Step to build the React Web Application
-
-#Create NextJS version
+#This is the Step by Step to build the React Web Application #Create NextJS version
 #npx create-next-app@latest --typescript --tailwind --eslint
 #npx v0@latest init
 
-cd doddi.priyambodo.com
+cd priyambodo.com-www
 npm install
 npm run dev 
 npm run build
